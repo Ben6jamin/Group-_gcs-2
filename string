@@ -1,0 +1,4 @@
+#!/bin/bash
+# shell script that will print the strings “one”,” two”,” three”,” four”, "five"
+
+printf "%s\n" "one" "two" "three" "four" "five" | tee $(date +%F)-file.txt
