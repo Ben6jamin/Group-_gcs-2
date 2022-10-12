@@ -1,0 +1,9 @@
+#!/bin/bash
+
+echo "Enter a phrase: "
+read text 
+word=$(echo -n "$text" | wc -w)
+spaces=$(tr -d -C ' ' <<< $text | wc -c)
+
+echo "The number of words is $word"
+echo "The number of white space is $spaces"
