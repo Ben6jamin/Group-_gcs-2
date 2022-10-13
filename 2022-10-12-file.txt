@@ -1,3 +1,4 @@
+# To create a filename that stats with today's date we used ' touch $(date +%F)-file.txt '
 one
 two
 three
